@@ -40,10 +40,6 @@ const webpackConfig = {
 			}
         ]
     },
-    devServer: {
-		contentBase: path.resolve(__dirname, "dist"),
-		watchContentBase: true
-    },
     optimization: {
 		minimizer: [new OptimizeCSSAssetsPlugin({})],
 	},
